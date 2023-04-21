@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to top left, #ad1fe8, #ed89f6);
+	font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+  background-color: white;
+  width: 200px;
+  height: 100vh;
+  position: flex;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+  margin: 0 0 20px 20px;
+  color: #424242;
+}
+
+.sidebar a {
+  display: block;
+  color: #757575;
+  padding: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+  background: linear-gradient(to top left, #ad1fe8, #ed89f6);
+  color: white;
+}
